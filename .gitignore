@@ -1,0 +1,19 @@
+# Frontend
+sprinthub-frontend/node_modules
+sprinthub-frontend/dist
+sprinthub-frontend/.env
+
+# Backend
+sprinthub-backend/target
+sprinthub-backend/.idea
+sprinthub-backend/*.iml
+sprinthub-backend/.env
+
+# IDE / OS
+.idea
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

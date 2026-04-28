@@ -1,0 +1,29 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: sprinthub-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: sprinthub_db
+      MYSQL_USER: sprinthub_user
+      MYSQL_PASSWORD: sprinthub_pass
+      MYSQL_ROOT_PASSWORD: root_pass
+    ports:
+      - "3307:3306"
+    volumes:
+      - sprinthub_mysql_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: sprinthub-phpmyadmin
+    restart: unless-stopped
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+    ports:
+      - "8081:80"
+    depends_on:
+      - mysql
+
+volumes:
+  sprinthub_mysql_data:
