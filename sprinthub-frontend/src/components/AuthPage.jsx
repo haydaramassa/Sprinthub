@@ -41,19 +41,19 @@ function AuthPage({
             </div>
   
             <div className="mini-kanban">
-              <div>
-                <strong>TODO</strong>
-                <p>Design workspace UI</p>
-              </div>
-              <div>
-                <strong>IN PROGRESS</strong>
-                <p>Connect auth API</p>
-              </div>
-              <div>
-                <strong>DONE</strong>
-                <p>MySQL + Docker</p>
-              </div>
-            </div>
+  <div>
+    <strong>TODO</strong>
+    <p>Plan release roadmap</p>
+  </div>
+  <div>
+    <strong>IN PROGRESS</strong>
+    <p>Build secure APIs</p>
+  </div>
+  <div>
+    <strong>DONE</strong>
+    <p>Launch MVP dashboard</p>
+  </div>
+</div>
           </div>
         </section>
   
@@ -103,7 +103,7 @@ function AuthPage({
                     name="fullName"
                     value={form.fullName}
                     onChange={onChange}
-                    placeholder="Bibo Developer"
+                    placeholder="Haydara Developer"
                     autoComplete="name"
                   />
                 </label>
@@ -116,7 +116,7 @@ function AuthPage({
                   type="email"
                   value={form.email}
                   onChange={onChange}
-                  placeholder="bibo@example.com"
+                  placeholder="haydara@example.com"
                   autoComplete="email"
                 />
               </label>
