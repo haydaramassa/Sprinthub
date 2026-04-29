@@ -206,22 +206,33 @@ http://localhost:5173
 
 ## Screenshots
 
-Add screenshots here:
+### Authentication
 
-```text
-screenshots/login.png
-screenshots/dashboard.png
-screenshots/kanban.png
-```
+| Login | Register |
+|---|---|
+| ![Login](Login.png) | ![Register](register.png) |
 
-Example:
+### Workspace and Project Management
 
-```markdown
-![Login Page](screenshots/login.png)
-![Dashboard](screenshots/dashboard.png)
-![Kanban Board](screenshots/kanban.png)
-```
+| Create Workspace | Workspaces and Projects |
+|---|---|
+| ![Create Workspace](Create%20workspace.png) | ![Workspaces and Projects](workspaces%20and%20its%20projects.png) |
 
+| Create Project | Update Project |
+|---|---|
+| ![Create Project](Create%20project.png) | ![Update Project](Update%20project.png) |
+
+### Task Management and Kanban
+
+| Create Task | Kanban Board |
+|---|---|
+| ![Create Task](Create%20task.png) | ![Kanban Board](Kanban.png) |
+
+### Settings
+
+| Settings Overview |
+|---|
+| ![Settings](Settings.png) |
 ## Current Status
 
 SprintHub currently includes the full core workflow:
